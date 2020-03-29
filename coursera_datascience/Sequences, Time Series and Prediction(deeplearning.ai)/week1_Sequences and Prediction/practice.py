@@ -73,7 +73,7 @@ plt.figure(figsize=(10, 6))
 plot_series(time, series)
 plt.show()
 
-# e will split it into two periods: the training period and the validation period
+# we will split it into two periods: the training period and the validation period
 # (in many cases, you would also want to have a test period). The split will be at time step 1000.
 
 split_time = 1000
